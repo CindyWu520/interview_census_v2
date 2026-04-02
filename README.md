@@ -9,6 +9,8 @@ A thread-safe, stateless Java class that calculates the top 3 most common ages a
 
 ## Setup
 
+### iterator_wrapper_architecture
+![iterator_wrapper_architecture](docs/iterator_wrapper_architecture.svg)
 ```java
 // 1. Implement AgeInputIterator to provide your data source
 public class RegionAgeIterator implements Census.AgeInputIterator {
