@@ -1,6 +1,15 @@
+.gradle
+build.gradle
+build/
+gradle/
+gradlew/
+gradlew.bat
+settings.gradle
+gradlew
+
 # Build Output
 target/
-build/
+../build/
 
 # IDE
 .idea/
@@ -10,3 +19,6 @@ build/
 
 # OS
 __MACOSX
+
+### OS Files ###
+.DS_Store
